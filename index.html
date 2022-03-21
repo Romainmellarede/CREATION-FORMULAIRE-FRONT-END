@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cours CSS</title>
+</head>
+
+<body>
+
+    <form>
+
+        <fieldset>
+
+            <legend>Choissisez votre pays</legend>
+            <label for="canada">Canada</label>
+            <input type="radio" id="canada" name="pays" value="canada">
+
+            <label for="france">France</label>
+            <input type="radio" id="france" name="pays" value="france">
+
+            <label for="australie">Australie</label>
+            <input type="radio" id="australie" name="pays" value="australie">
+
+        </fieldset>
+
+        <label for="taille">Coissir une taille</label>
+        <select name="taille" id="taille">
+            <option value="taille">Choissisez une taille</option>
+            <option value="xs">XS</option>
+            <option value="s">S</option>
+            <option value="m">M</option>
+            <option value="l">L</option>
+            <option value="xl">XL</option>
+            <option value="xxl">XXL</option>
+        </select>
+
+
+        <br><br>
+
+        <!--<label for="age">Rentrez votre age</label>
+        <input type="text" id="age">-->
+
+        <button type="submit">Envoyer votre formulaire</button>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
